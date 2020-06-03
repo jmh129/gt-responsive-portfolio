@@ -15,8 +15,17 @@ The website was designed to be responsive. The "About Me" page is the home page.
 
 Link to website: https://jmh129.github.io/gt-responsive-portfolio/index.html
 
+### Website Pages
+#### About Me
+![Alt Text](https://github.com/jmh129/gt-responsive-portfolio/blob/master/Assets/images/about-me.png?raw=true)
 
-![Alt Text](https://github.com/jmh129/gt-accessibility-html/blob/develop/assets/images/gt-accessibiliy-html.png?raw=true)
+#### Portfolio
+![Alt Text](https://github.com/jmh129/gt-responsive-portfolio/blob/master/Assets/images/portfolio.png?raw=true)
+
+
+#### Contact
+![Alt Text](https://github.com/jmh129/gt-responsive-portfolio/blob/master/Assets/images/contact.png?raw=true)
+
 
 ### Credits
 Credit to the Georgia Institute of Technology Coding Bootcamp for the instruction for the assignemnt. 
