@@ -1,0 +1,87 @@
+/* Table of Contents
+  1. Body
+  2. Nav Bar
+  3. Main Container
+  4. Images
+  5. Paragraph in About Me
+  6. Contact Info
+  7. Button
+  8. Footer
+     */
+
+
+
+/* 1. Body  */
+body {
+  background: url(../images/background-image.png);
+  background-size: cover;
+  padding-bottom: 80px;}
+
+/* 2. Nav Bar  */
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+.navbar-brand {
+  color: #fff;
+  background-color: teal;
+}
+
+/* 3. Main Container  */
+.container {
+  background-color: whitesmoke;
+}
+
+h2 {
+  color: teal;
+}
+
+/* 4. Images  */
+.img-thumbnail {
+  margin-right: 10px;
+  padding: .25rem;
+  background-color: #fff;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  height:100%;
+  width:100%;
+}
+
+/* 5. Paragrah in About Me  */
+p {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.img-thumbnail {
+  height: 200px;
+  width: 200px;
+}
+
+/* 6. Contact Info */
+.ml-4 {
+  width: 80%;
+}
+
+/* 7. Button  */
+.btn-primary {
+  background-color: teal;
+}
+
+/* 8. Footer  */
+footer {
+  position: fixed;
+  height: 50px;
+  line-height: 30px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  font-size: small;
+  background-color: dimgray;
+  color: lightslategray;
+  border-top: 5px solid teal;
