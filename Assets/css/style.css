@@ -42,14 +42,23 @@ p {
   width: 200px;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color:#4b4848;
-  color:gray;
+/* Contact Info */
+.ml-4 {
+  width: 80%;
 }
 
 .btn-primary {
   background-color: teal;
 }
+
+footer {
+  position: fixed;
+  height: 50px;
+  line-height: 30px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  font-size: small;
+  background-color: dimgray;
+  color: lightslategray;
+  border-top: 5px solid teal;
