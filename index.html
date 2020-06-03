@@ -6,18 +6,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <!-- bootstrap  -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <!-- style.css  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>James Holding Portfolio</title>
   </head>
   <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-light bg-light">
-      <div class="container">
+      <div class="container col-md-8">
         <a class="navbar-brand" href="#">James Holding</a>
         <form class="form-inline">
           <button
@@ -35,64 +38,37 @@
       </div>
     </nav>
     <!-- Main Content  -->
-    <main>
-      <!-- fix margin get rid of card google how to add margin/padding bootstrap. -->
-      <div class="container mt-5">
-        <div class="card">
-          <div class="page-header">
-            <h2>About Me</h2>
-          </div>
-          <div class="card-body">
-            <div class="row">
-              <p>
-                <img
-                  class="img img-thumbnail float-left"
-                  src="http://placehold.it/200x200"
-                  alt="Image of James Holding"
-                />
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Dolorem, illum molestias. Ex officia ullam
-                    consequatur quibusdam dolorum unde molestias nostrum
-                    nisi culpa? Eos ad accusamus dicta, reiciendis quasi
-                    numquam sequi.slorem Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Recusandae officiis
-                    cumque ratione. Nostrum id nihil vel at, accusamus
-                    eaque beatae animi est praesentium! Placeat fugit
-                    temporibus voluptates dolorum ad accusantium. Lorem
-                    ipsum dolor, sit amet consectetur adipisicing elit.
-                    Molestias quos repellendus, ratione sed consequuntur
-                    iste odio quaerat vero quod, debitis tenetur
-                    inventore, mollitia reprehenderit provident iure quis
-                    illum magnam accusamues. Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Quo fuga vel
-                    consectetur a nulla commodi aperiam eaque? Odio harum,
-                    in iste consequatur aperiam qui, voluptate neque
-                    quidem placeat molestiae. Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit. Itaque, modi veritatis,
-                    culpa corporis molestias hic, doloremque neque commodi
-                    eum temporibus illum fugit provident repellendus vero
-                    quisquam magni omnis. Aliquid, fugiat! Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit. Facere
-                    numquam tempora saepe quae iure id perspiciatis qui,
-                    rem recusandae sunt reiciendis fugiat sed possimus
-                    dolor. Aspernatur commodi pariatur unde expedita!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Error voluptatum id asperiores nostrum dolores
-                    libero. Exercitationem atque neque enim blanditiis
-                    eligendi, nihil voluptates omnis, quis reiciendis
-                    harum facere error rem!
-                </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <main class="container col-md-6 mt-5">
+      <header class="pb-2 pt-2 mb-2 border-bottom">
+        <h2>About Me</h2>
+      </header>
+      <section class="row">
+        <p>
+          <img
+            class="img img-thumbnail float-left"
+            src="assets/images/headshot.png"
+            alt="Image of James Holding"
+          />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Dolorem, illum molestias. Ex officia ullam consequatur
+          quibusdam dolorum unde molestias nostrum nisi culpa? Eos ad
+          accusamus dicta, reiciendis quasi numquam sequi.slorem Lorem
+          ipsum dolor sit amet consectetur adipisicing elit.
+          Recusandae officiis cumque ratione. Nostrum id nihil vel at,
+          accusamus eaque beatae animi est praesentium! Placeat fugit
+          temporibus voluptates dolorum ad accusantium. Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit. Molestias quos
+          repellendus, ratione sed consequuntur iste odio quaerat vero
+          quod, debitis tenetur inventore, mollitia reprehenderit
+          provident iure quis illum magnam accusamues. Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit. Quo fuga vel
+          consectetur a nulla commodi aperiam eaque? Odio harum
+        </p>
+      </section>
     </main>
-    <footer>
-      <div class="container">
-        <div class="footer-copyright text-center py-3">
-          © Copyright
-        </div>
-      </div>
+    <!-- Footer  -->
+    <footer class="footer-copyright text-center py-3">
+      © Copyright
     </footer>
   </body>
 </html>

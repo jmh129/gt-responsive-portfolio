@@ -1,0 +1,51 @@
+body {
+  background: url(../images/background-image.png);
+  background-size: cover;
+  }
+
+/* Nav Bar  */
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+.navbar-brand {
+  color: #fff;
+  background-color: teal;
+}
+
+/* Main Container  */
+.container {
+  background-color: whitesmoke;
+}
+
+h2 {
+  color: teal;
+}
+
+.img-thumbnail {
+  margin-right: 10px;
+  padding: .25rem;
+  background-color: #fff;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.img-thumbnail {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:#4b4848;
+  color:gray;
+}
