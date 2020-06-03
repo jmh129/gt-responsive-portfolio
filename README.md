@@ -1,6 +1,6 @@
 # gt-responsive-portfolio
 ## Introduction
-The code for this website was given by the Instructors at the Georgia Tech Coding Bootcamp for an accessability and code refactoring assignement. The goal was to take the initial code and improve it to meet the acceptance criteria. My goal of the project was to learn and make the website as accessible as possible by adding in semantic elements and cleaning up any inefficient code. 
+This website was created as a project for the Georgia Tech Coding Full-Stack program. The goal of this project was to learn and apply the concepts of responsive web design. Here I have created a responsive portfolio that contains an About Me, Portfolio with links to other projects and a Contact page. I utilized bootstrap and semantic html elements to create it.  
 
 ## Table of Contents
 - Installation
@@ -9,17 +9,17 @@ The code for this website was given by the Instructors at the Georgia Tech Codin
 - License
 
 ### Installation
-Clone this repo to your local machine using https://github.com/jmh129/gt-accessibility-html.git.
+Clone this repo to your local machine using https://github.com/jmh129/gt-responsive-portfolio.
 ### Usage
-The website can used to either scroll down to the informatio or utilize that nav bar links to take the user to the desired section of the webpage. 
+The website was designed to be responsive. The "About Me" page is the home page. The user can either click on the links above to go to the other sections of the site or, if their screen is small, can click the hamburger drop down and access the links that way. Note, the pictures in the Portfolio sections are links to other websites.  
 
-Link to website: https://jmh129.github.io/gt-accessibility-html/ 
+Link to website: https://jmh129.github.io/gt-responsive-portfolio/index.html
 
 
 ![Alt Text](https://github.com/jmh129/gt-accessibility-html/blob/develop/assets/images/gt-accessibiliy-html.png?raw=true)
 
 ### Credits
-Credit to the Georgia Institute of Technology Coding Bootcamp for the original source code and instruction for the assignemnt. 
+Credit to the Georgia Institute of Technology Coding Bootcamp for the instruction for the assignemnt. 
 ### License
 
 MIT License
