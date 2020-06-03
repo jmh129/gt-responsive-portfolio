@@ -30,6 +30,11 @@ h2 {
   height: auto;
 }
 
+.img-fluid {
+  height:100%;
+  width:100%;
+}
+
 p {
   margin-top: 0rem;
   margin-bottom: 2rem;
