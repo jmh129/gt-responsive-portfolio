@@ -12,50 +12,67 @@
 
 
 /* 1. Body  */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: url(../images/background-image.png);
+  background: url(../images/bg.jpg);
   background-size: cover;
-  padding-bottom: 80px;}
+  padding-bottom: 80px;
+}
 
 /* 2. Nav Bar  */
-.navbar-light .navbar-brand {
-  color: #fff;
+.navbar {
+  opacity: .7;
 }
-.navbar-brand {
-  color: #fff;
-  background-color: teal;
+
+.navbar-dark .navbar-brand {
+  color: #66FCF1;
+}
+.navbar-dark .navbar-nav .active .nav-link {
+  color: #66FCF1;
 }
 
 /* 3. Main Container  */
-.container {
-  background-color: whitesmoke;
+.main {
+  min-height: 100vh;
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: rgba(255,255,255, 0.2) !important;
 }
 
 h2 {
-  color: teal;
+  color:#66FCF1;
 }
 
-/* 4. Images  */
 .img-thumbnail {
   margin-right: 10px;
   padding: .25rem;
   background-color: #fff;
   border-radius: .25rem;
-  max-width: 100%;
+  max-width: 55%;
   height: auto;
 }
 
 .img-fluid {
   height:100%;
-  width:100%;
+  width:auto;
 }
 
 /* 5. Paragrah in About Me  */
 p {
+  color: #fff;
   margin-top: 0rem;
-  margin-bottom: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .img-thumbnail {
@@ -82,6 +99,12 @@ footer {
   left: 0px;
   width: 100%;
   font-size: small;
+  opacity: .7;
   background-color: dimgray;
   color: lightslategray;
-  border-top: 5px solid teal;
+  border-top: 5px solid #66FCF1;
+}
+
+.fa {
+  color: #66FCF1;
+}
