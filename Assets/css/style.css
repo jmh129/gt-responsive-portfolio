@@ -104,6 +104,10 @@ div {
   text-decoration: none;
 }
 
+a[href^="tel:"] {
+  color:#66FCF1;
+  text-decoration: none;
+}
 .fa {
   color: #66FCF1;
 }
