@@ -74,6 +74,10 @@ div {
   padding-top: 10px;
 }
 
+.phone {
+  color:#66FCF1;
+}
+
 .img-thumbnail {
   margin-right: 10px;
   padding: .25rem;
