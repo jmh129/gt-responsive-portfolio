@@ -34,6 +34,10 @@ body {
   color: #66FCF1;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28102, 252, 241, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* 3. Main Container  */
 .main {
   min-height: 100vh;
@@ -51,6 +55,23 @@ body {
 
 h2 {
   color:#66FCF1;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color:#66FCF1;
+}
+
+i {
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+div {
+  padding-top: 10px;
 }
 
 .img-thumbnail {
