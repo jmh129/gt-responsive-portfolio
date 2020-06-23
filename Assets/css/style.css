@@ -62,7 +62,7 @@ ul {
 }
 
 li {
-  color:#66FCF1;
+  color:#66FCF1 !important;
 }
 
 i {
@@ -74,9 +74,6 @@ div {
   padding-top: 10px;
 }
 
-.phone {
-  color:#66FCF1;
-}
 
 .img-thumbnail {
   margin-right: 10px;
