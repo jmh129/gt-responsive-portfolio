@@ -57,27 +57,6 @@ h2 {
   color:#66FCF1;
 }
 
-ul {
-  list-style: none;
-}
-
-li {
-  color:#66FCF1;
-}
-
-i {
-  vertical-align: middle;
-  padding-top: 10px;
-}
-
-div {
-  padding-top: 10px;
-}
-
-.phone {
-  color:#66FCF1;
-}
-
 .img-thumbnail {
   margin-right: 10px;
   padding: .25rem;
@@ -107,14 +86,27 @@ p {
 }
 
 /* 6. Contact Info */
-.ml-4 {
-  width: 80%;
+ul {
+  list-style: none;
 }
 
-/* 7. Button  */
-.btn-primary {
-  background-color: teal;
+li {
+  color:#66FCF1 !important;
 }
+
+i {
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+div {
+  padding-top: 10px;
+}
+
+.fa {
+  color: #66FCF1;
+}
+
 
 /* 8. Footer  */
 footer {
@@ -131,6 +123,3 @@ footer {
   border-top: 5px solid #66FCF1;
 }
 
-.fa {
-  color: #66FCF1;
-}
